@@ -1,0 +1,38 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Flash</title>
+    <link rel="stylesheet" href="estilo.css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-pai">
+      <!--PARTE DA ESQUERDA-->
+      <div class="container centralizar">
+        <div class="principal-esquerda">
+          <h1 class="principal-logo"></h1>
+          <h2 class="titulo">
+            Acerte as perguntas e aprenda curiosidades da programação!
+          </h2>
+          <p class="desc">
+            No cartão você encontrará palavras e expressões que irá utilizar no
+            seu dia a dia como dev. Aproveite para testar seus conhecimentos e
+            fixar o significado.
+          </p>
+          <div class="container-botao">
+            <button onclick="buscarInfo()" class="botao">
+              Próxima pergunta
+            </button>
+            <button onclick="revelar()" class="botao">Revelar resposta</button>
+          </div>
+        </div>
+      </div>
+      <!--Parte da direita-->
+      <div id="cardcontainer" class="container centralizar"></div>
+    </div>
+  </body>
+  <script src="movimentos.js/script.js"></script>
+</html>
